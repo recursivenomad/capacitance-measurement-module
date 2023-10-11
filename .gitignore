@@ -3,3 +3,16 @@
 
 # Misc intermediary/meta files
 _untracked/
+
+
+
+# KiCad
+# -----
+
+# Backup files
+*-backups/
+*.bak
+
+# Temporary files
+*.kicad_prl
+fp-info-cache
