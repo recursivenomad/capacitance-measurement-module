@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Analog_ADC_AD7747")(type "KiCad")(uri "${KIPRJMOD}/project-libraries/AD7747/Analog_ADC_AD7747.kicad_sym")(options "")(descr ""))
+)
