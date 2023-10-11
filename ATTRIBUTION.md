@@ -13,6 +13,12 @@ Project created by Peter S. Hollander in 2023, and made freely available under t
 &nbsp;
 
 
+> *Additional attributions specific to certain elements can be found at the following locations:*  
+[`./kicad/project-libraries/RaspberryPi_Pico/ATTRIBUTION.md`](./kicad/project-libraries/RaspberryPi_Pico/ATTRIBUTION.md)
+
+&nbsp;
+
+
 
 
 # Tools utilized

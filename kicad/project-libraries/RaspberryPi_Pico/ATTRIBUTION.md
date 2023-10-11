@@ -1,0 +1,57 @@
+# Raspberry Pi Pico library attributions
+
+
+
+
+## Peter S. Hollander
+
+Model, footprint, and symbol source files created and compiled by Peter S. Hollander between 2022 and 2023, and made freely available under the [*MIT-0*][URL-MIT-0] license.
+
+*Contact: <recursivenomad@protonmail.com>*  
+*Repository: <https://gitlab.com/recursivenomad/ki-lime-pi-pico/>*
+
+
+## Markus Gyger
+
+Comprehensive alternate pin definitions as defined in the RP2040 datasheet inspired by the [schematic symbol][URL-Gyger-symbol] created by Markus Gyger.
+
+
+## Raspberry Pi
+
+Original assets which were referenced for geometry/organization (model, symbol, footprint) acquired from Raspberry Pi in 2022 via:
+
+- [Raspberry Pi Pico Datasheet][URL-Pico-sheet]
+  - Pico Model: <https://datasheets.raspberrypi.com/pico/Pico-R3-step.zip>
+- [Raspberry Pi Pico W Datasheet][URL-Pico-W-sheet]
+  - Pico W Model: <https://datasheets.raspberrypi.com/picow/PicoW-step.zip>
+- [RP2040 Datasheet][URL-RP2040-sheet]
+- [Hardware design with the RP2040][URL-RP2040-design]
+  - RP2040 Symbol: <https://datasheets.raspberrypi.com/rp2040/Minimal-KiCAD.zip>
+  - Pico Footprint: <https://datasheets.raspberrypi.com/rp2040/VGA-KiCAD.zip>
+  - Pico W Footprint: <https://datasheets.raspberrypi.com/rp2040/VGA-PicoW-KiCAD.zip>
+
+&nbsp;
+
+
+
+
+# Tools utilized
+
+- [KiCad][URL-KiCad] - Footprint/symbol library design
+- [FreeCAD][URL-FreeCAD] - Parametric 3D modelling
+  - [KiCad StepUp addon][URL-KiCad-StepUp] - VRML model exporting
+- [VSCodium][URL-VSCodium] - VRML model material bulk editing
+
+
+
+
+[URL-FreeCAD]: <https://www.freecad.org/>
+[URL-Gyger-symbol]: <https://gitlab.com/mgyger/kicad-symbols/-/blob/pico/MCU_Module.kicad_sym>
+[URL-KiCad]: <https://www.kicad.org/>
+[URL-KiCad-StepUp]: <https://github.com/easyw/kicadStepUpMod>
+[URL-MIT-0]: <https://opensource.org/license/mit-0/>
+[URL-Pico-sheet]: <https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf>
+[URL-Pico-W-sheet]: <https://datasheets.raspberrypi.com/picow/pico-w-datasheet.pdf>
+[URL-RP2040-design]: <https://datasheets.raspberrypi.com/rp2040/hardware-design-with-rp2040.pdf>
+[URL-RP2040-sheet]: <https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf>
+[URL-VSCodium]: <https://vscodium.com/>
