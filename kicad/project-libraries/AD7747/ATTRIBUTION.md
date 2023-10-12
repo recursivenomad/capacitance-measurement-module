@@ -18,7 +18,7 @@ Pin layout adapted from Analog Devices' [AD7747 datasheet][URL-AD7747].
 
 ## Ryan "fauxpark"
 
-Contributor to the [AD7746 schematic symbol][URL-fauxpark] built-in to KiCad, which was used for quick reference.
+Contributor to the [AD7746 schematic symbol][URL-fauxpark] built-in to KiCad, which was used for quick reference and relevant pin compatibility.
 
 &nbsp;
 
