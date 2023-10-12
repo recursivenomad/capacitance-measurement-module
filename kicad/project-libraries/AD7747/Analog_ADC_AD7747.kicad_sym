@@ -18,5 +18,11 @@
     (property "ki_description" "24-bit capacitance-to-digital converter with temperature sensor for grounded capacitances, TSSOP-16" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (symbol "AD7747_1_1"
+      (rectangle (start -12.7 25.4) (end 12.7 -25.4)
+        (stroke (width 0.254) (type default))
+        (fill (type background))
+      )
+    )
   )
 )
