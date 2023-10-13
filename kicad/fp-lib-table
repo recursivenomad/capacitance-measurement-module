@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "NetShield")(type "KiCad")(uri "${KIPRJMOD}/project-libraries/NetShield/NetShield.pretty")(options "")(descr ""))
+)
