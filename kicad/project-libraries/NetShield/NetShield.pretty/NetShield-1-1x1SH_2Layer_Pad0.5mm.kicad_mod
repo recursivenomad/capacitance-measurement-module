@@ -9,10 +9,6 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp b0ffb18e-12de-4bf8-b5b6-136fd8e34629)
   )
-  (fp_text user "${REFERENCE}" (at 0 3.175 unlocked) (layer "F.Fab") hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp f3c8da04-e50d-4499-a6a5-b7c6dd45a3bd)
-  )
   (pad "1" smd circle (at 0 0) (size 0.5 0.5) (layers "F.Cu") (tstamp e96a5b87-56d1-4471-82ea-a3c693eda923))
   (pad "2" smd circle (at 0 0) (size 0.5 0.5) (layers "B.Cu") (tstamp bca34969-d4f4-4271-8208-8340870c1b23))
 )
