@@ -51,10 +51,6 @@
         (name "Shield" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 0 1.27 270) (length 0) hide
-        (name "Shield" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
     )
   )
   (symbol "NetShield_1" (pin_numbers hide) (pin_names (offset 0) hide) (in_bom no) (on_board yes)
@@ -106,10 +102,6 @@
     )
     (symbol "NetShield_1_1_0"
       (pin passive line (at 0 -2.54 90) (length 0)
-        (name "Shield" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 1.27 270) (length 0) hide
         (name "Shield" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
