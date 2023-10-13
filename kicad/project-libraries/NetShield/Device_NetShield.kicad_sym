@@ -18,6 +18,9 @@
     (property "ki_description" "Net with floating shield, for denoting shielded traces/wires/nets without a driven shield connection, 1 net, 2 pins" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "Net*Shield*" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (symbol "NetShield_0_0_0"
       (pin passive line (at -2.54 0 0) (length 2.54)
         (name "1" (effects (font (size 1.27 1.27))))
@@ -72,6 +75,9 @@
     (property "ki_description" "Net with shield, for denoting shielded traces/wires/nets, 1 shield connection, 2 nets, 3 pins" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "Net*Shield*" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (symbol "NetShield_1_0_0"
       (pin passive line (at -2.54 0 0) (length 2.54)
         (name "1" (effects (font (size 1.27 1.27))))
@@ -124,6 +130,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Net with shield, for denoting shielded traces/wires/nets, 2 shield connections, 2 nets, 4 pins" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "Net*Shield*" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "NetShield_2_0_0"

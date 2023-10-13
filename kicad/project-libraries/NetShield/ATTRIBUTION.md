@@ -14,6 +14,7 @@ Library created by Peter S. Hollander in 2023, and made freely available under t
 ## KiCad source
 
 The creation of bezier curves within the schematic symbol through the direct editing of [`./Device_NetShield.kicad_sym`](./Device_NetShield.kicad_sym) was identified within KiCad's [`.../sch_sexpr_parser.cpp`][URL-KiCad-bezier], and the values for a bezier ellipse were derived from KiCad's [`.../test_ellipse_to_bezier.cpp`][URL-KiCad-ellipse].
+The built-in Net Tie symbols & footprints were referenced for similarity.
 
 &nbsp;
 
