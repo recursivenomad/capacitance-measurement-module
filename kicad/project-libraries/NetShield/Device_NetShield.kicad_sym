@@ -1,9 +1,9 @@
 (kicad_symbol_lib (version 20220914) (generator kicad_symbol_editor)
-  (symbol "NetShield_0" (pin_numbers hide) (pin_names (offset 0) hide) (in_bom no) (on_board yes)
+  (symbol "NetShield_1-0SH" (pin_numbers hide) (pin_names (offset 0) hide) (in_bom no) (on_board yes)
     (property "Reference" "NS" (at -1.27 3.81 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (property "Value" "NetShield_0" (at -1.27 -3.81 0)
+    (property "Value" "NetShield_1-0SH" (at -1.27 -3.81 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
     (property "Footprint" "" (at 0 0 0)
@@ -15,13 +15,13 @@
     (property "ki_keywords" "net shield trace wire" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_description" "Net with floating shield, for denoting shielded traces/wires/nets without a driven shield connection, 1 net, 2 pins" (at 0 0 0)
+    (property "ki_description" "1 signal net with floating shield, for denoting shielded traces/wires/nets without an explicit shield connection, 1 net, 2 pins" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_fp_filters" "Net*Shield*" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "NetShield_0_0_0"
+    (symbol "NetShield_1-0SH_0_0"
       (pin passive line (at -2.54 0 0) (length 2.54)
         (name "1" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
@@ -31,7 +31,7 @@
         (number "1" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "NetShield_0_0_1"
+    (symbol "NetShield_1-0SH_0_1"
       (bezier (pts  (xy -1.27 0) (xy -1.27 1.4028) (xy -0.7014 2.54) (xy 0 2.54))
         (stroke (width 0) (type default))
         (fill (type none))
@@ -49,18 +49,18 @@
         (fill (type none))
       )
     )
-    (symbol "NetShield_0_1_0"
+    (symbol "NetShield_1-0SH_1_0"
       (pin passive line (at 0 -1.27 90) (length 0) hide
         (name "Shield" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
     )
   )
-  (symbol "NetShield_1" (pin_numbers hide) (pin_names (offset 0) hide) (in_bom no) (on_board yes)
+  (symbol "NetShield_1-1SH" (pin_numbers hide) (pin_names (offset 0) hide) (in_bom no) (on_board yes)
     (property "Reference" "NS" (at -1.27 3.81 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (property "Value" "NetShield_1" (at -1.27 -3.81 0)
+    (property "Value" "NetShield_1-1SH" (at -1.27 -3.81 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
     (property "Footprint" "" (at 0 0 0)
@@ -72,13 +72,13 @@
     (property "ki_keywords" "net shield trace wire" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_description" "Net with shield, for denoting shielded traces/wires/nets, 1 shield connection, 2 nets, 3 pins" (at 0 0 0)
+    (property "ki_description" "1 signal net with 1 shield connection, for denoting shielded traces/wires/nets, 2 nets, 3 pins" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_fp_filters" "Net*Shield*" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "NetShield_1_0_0"
+    (symbol "NetShield_1-1SH_0_0"
       (pin passive line (at -2.54 0 0) (length 2.54)
         (name "1" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
@@ -88,7 +88,7 @@
         (number "1" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "NetShield_1_0_1"
+    (symbol "NetShield_1-1SH_0_1"
       (bezier (pts  (xy -1.27 0) (xy -1.27 1.4028) (xy -0.7014 2.54) (xy 0 2.54))
         (stroke (width 0) (type default))
         (fill (type none))
@@ -106,18 +106,18 @@
         (fill (type none))
       )
     )
-    (symbol "NetShield_1_1_0"
+    (symbol "NetShield_1-1SH_1_0"
       (pin passive line (at 0 -2.54 90) (length 0)
         (name "Shield" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
     )
   )
-  (symbol "NetShield_2" (pin_numbers hide) (pin_names (offset 0) hide) (in_bom no) (on_board yes)
+  (symbol "NetShield_1-2SH" (pin_numbers hide) (pin_names (offset 0) hide) (in_bom no) (on_board yes)
     (property "Reference" "NS" (at -1.27 3.81 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (property "Value" "NetShield_2" (at -1.27 -3.81 0)
+    (property "Value" "NetShield_1-2SH" (at -1.27 -3.81 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
     (property "Footprint" "" (at 0 0 0)
@@ -129,13 +129,13 @@
     (property "ki_keywords" "net shield trace wire" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_description" "Net with shield, for denoting shielded traces/wires/nets, 2 shield connections, 2 nets, 4 pins" (at 0 0 0)
+    (property "ki_description" "1 signal net with 2 shield connections, for denoting shielded traces/wires/nets, 2 nets, 4 pins" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_fp_filters" "Net*Shield*" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "NetShield_2_0_0"
+    (symbol "NetShield_1-2SH_0_0"
       (pin passive line (at -2.54 0 0) (length 2.54)
         (name "1" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
@@ -145,7 +145,7 @@
         (number "1" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "NetShield_2_0_1"
+    (symbol "NetShield_1-2SH_0_1"
       (bezier (pts  (xy -1.27 0) (xy -1.27 1.4028) (xy -0.7014 2.54) (xy 0 2.54))
         (stroke (width 0) (type default))
         (fill (type none))
@@ -163,7 +163,7 @@
         (fill (type none))
       )
     )
-    (symbol "NetShield_2_1_0"
+    (symbol "NetShield_1-2SH_1_0"
       (pin passive line (at 0 -2.54 90) (length 0)
         (name "Shield" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))

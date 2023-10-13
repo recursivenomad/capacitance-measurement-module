@@ -1,4 +1,4 @@
-(footprint "NetShield-1-1x1SH_2Layer_Pad0.5mm" (version 20221018) (generator pcbnew)
+(footprint "NetShield-1-1SH_2Layer_Pad0.5mm" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (descr "Net shield, for forcing overlapping traces on shielded nets, 2 layers, 2 nets, 2 pins, 0.5mm pads")
   (tags "net shield trace wire")
@@ -7,7 +7,7 @@
       (effects (font (size 1 1) (thickness 0.1)))
     (tstamp 046f8b71-6593-46f4-8e89-ccc841b12c23)
   )
-  (fp_text value "NetShield-1-1x1SH_2Layer_Pad0.5mm" (at 0 1.27 unlocked) (layer "F.Fab") hide
+  (fp_text value "NetShield-1-1SH_2Layer_Pad0.5mm" (at 0 1.27 unlocked) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp b0ffb18e-12de-4bf8-b5b6-136fd8e34629)
   )
