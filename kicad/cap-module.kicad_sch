@@ -520,10 +520,12 @@
 
 
   (no_connect (at 172.72 92.71) (uuid 17666e7d-f8e2-4a98-b39f-23258a12d5c1))
+  (no_connect (at 77.47 102.87) (uuid 1981b192-ba7e-4825-bf79-e5abfc33f762))
   (no_connect (at 127 123.19) (uuid 1ac20e1b-aa5c-4f3f-a930-5fae4c3a38e1))
   (no_connect (at 127 102.87) (uuid 23520389-76e9-494d-80bc-51ca999ebfe8))
   (no_connect (at 127 100.33) (uuid 2efd99d2-5fbc-41ff-afb7-1d6655787626))
   (no_connect (at 172.72 105.41) (uuid 370f5944-5f7f-4f6e-ba8b-5f8e9f2e2ab4))
+  (no_connect (at 77.47 95.25) (uuid 3ac12dbf-15ec-4e91-b416-20974af386d0))
   (no_connect (at 127 97.79) (uuid 3e3be0d8-3fd1-4a20-9c64-528917892f95))
   (no_connect (at 172.72 80.01) (uuid 3fdc5ff0-5596-4cc5-90bc-83bf7e2f149e))
   (no_connect (at 127 110.49) (uuid 44873d6d-97f7-4e83-9f5b-bfa0aecf85ef))
@@ -535,9 +537,11 @@
   (no_connect (at 172.72 113.03) (uuid 8657d0b6-4c47-4f51-86fa-143ae13a14a5))
   (no_connect (at 154.94 59.69) (uuid 968b8c32-f5bc-471f-b3cf-4f4fec03044d))
   (no_connect (at 172.72 95.25) (uuid a236d5a3-03e8-4d88-adb5-abebf0e13bf5))
+  (no_connect (at 77.47 85.09) (uuid ae534cb8-def5-4718-9185-4728f7b7a6a3))
   (no_connect (at 172.72 115.57) (uuid b6ab9a8f-6674-4e25-90b7-06d9e861c56a))
   (no_connect (at 127 115.57) (uuid b97a61fc-4266-4185-92e2-87597c569795))
   (no_connect (at 172.72 74.93) (uuid be8f98b0-0c24-4396-bb8a-d1ecab285ef5))
+  (no_connect (at 77.47 87.63) (uuid c1189b17-f972-43e7-ae39-dc079303d1aa))
   (no_connect (at 127 105.41) (uuid c3d2cbb4-2f9e-4b79-a394-2fa5d879d8b0))
   (no_connect (at 172.72 87.63) (uuid c43a036e-a011-49a2-9fc9-335694bb2a84))
   (no_connect (at 172.72 120.65) (uuid ca195124-0714-46f9-ba27-1fb4047fe571))
@@ -549,6 +553,7 @@
   (no_connect (at 127 85.09) (uuid f5155166-4fce-44f6-b1c0-847d680f1ad7))
   (no_connect (at 172.72 97.79) (uuid f8fe8b9e-f7cb-40b0-9bb7-829a47d065dd))
   (no_connect (at 172.72 100.33) (uuid f98c23e0-730e-4837-ae2b-4a8f4a6ea8f4))
+  (no_connect (at 77.47 92.71) (uuid fa674d66-7aab-4e03-a64a-3a4aaba2531b))
   (no_connect (at 172.72 90.17) (uuid fa73770d-4117-4c47-b29a-cca369e47596))
 
   (symbol (lib_id "Analog_ADC_AD7747:AD7747") (at 90.17 97.79 0) (unit 1)
