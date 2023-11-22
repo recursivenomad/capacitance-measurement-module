@@ -16,3 +16,4 @@ _untracked/
 # Temporary files
 *.kicad_prl
 fp-info-cache
+~*.lck
