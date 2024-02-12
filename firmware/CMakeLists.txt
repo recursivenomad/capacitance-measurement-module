@@ -40,13 +40,13 @@ target_link_libraries(${PROJECT_NAME}
 
 # Sets firmware metadata, as visible by using picotool
 pico_set_program_name(${PROJECT_NAME}
-    "")
+    "Capacitance measurement module")
 pico_set_program_version(${PROJECT_NAME}
-    "")
+    "0.0.0")
 pico_set_program_description(${PROJECT_NAME}
-    "")
+    "A shielded capacitance measurement module using the AD7747 and RP2040")
 pico_set_program_url(${PROJECT_NAME}
-    "")
+    "https://gitlab.com/recursivenomad/capacitance-measurement-module/")
 
 # Toggles for USB/UART stdio output
 pico_enable_stdio_usb(${PROJECT_NAME} OFF)
