@@ -17,3 +17,11 @@ _untracked/
 *.kicad_prl
 fp-info-cache
 ~*.lck
+
+
+
+# Firmware
+# --------
+
+# Build files
+firmware/build/
