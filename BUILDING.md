@@ -785,7 +785,7 @@ This guide will set up the global settings instead.
 
   > The [RP2040 datasheet](https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf#section_Processor-Debug) suggests an adapter speed up to 24000, depending on your setup.  For reference, the highest I was able to get mine was 20000.
 
-  > The [RP2040 datasheet](https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf#section_Processor-Debug) also lists the 4 hardware breakpoints and 2 watchpoints.  As of writing, automatic breakpoints set by GDB do not appear to be counting towards this limit.  I've opened [an issue](https://github.com/Marus/cortex-debug/issues/978) in Cortex-Debug to request explicitly sending hardware breakpoints to GDB.  
+  > The [RP2040 datasheet](https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf#section_Processor-Debug) also lists the 4 hardware breakpoints and 2 watchpoints.  As of writing, automatic breakpoints set by GDB do not appear to be counting towards this limit.  I've opened [an issue](https://github.com/Marus/cortex-debug/issues/978) in Cortex-Debug to request explicitly sending hardware breakpoints to GDB, as well as [an issue](https://sourceware.org/bugzilla/show_bug.cgi?id=31403) directly to GDB.  
   **In the meantime, beware that setting more than 4 breakpoints through the UI will cause problems.**
   
   > *Raspberry Pi [recommends](https://github.com/raspberrypi/pico-examples/tree/sdk-1.5.1/ide/vscode) using a launch.json file included in `pico-examples`, however I will be using the above launch configuration as it provides more robust functionality.*
