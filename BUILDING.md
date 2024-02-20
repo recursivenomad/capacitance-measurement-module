@@ -842,4 +842,10 @@ And with that...
 Set breakpoints with the red dots next to the line numbers (including conditional breakpoints) and step through code with the controls floating at the top of the window :)  
 You can read more about using VSCode's debugging features [here](https://code.visualstudio.com/Docs/editor/debugging).
 
+The Cortex-Debug extension (and its dependencies) also feature the tabs "MEMORY" and "XRTOS" alongside the "TERMINAL" and "DEBUG CONSOLE" in the bottom pane.
+I have not yet explored implementing FreeRTOS, so I hide the XRTOS view for simplicity.
+If you are interested, you can follow the support for multi-core FreeRTOS viewing at [this pull-request](https://github.com/mcu-debug/rtos-views/pull/44).
+
+If you'd like to view raw memory, then feel free to enter the "MEMORY" tab, and while debugging a program on the Pico click the plus icon next to the drop-down.  When prompted, enter `0x20000000` as the memory address (this is the [starting address](https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf#_address_map) of the RP2040 SRAM)
+
 Happy hacking!
