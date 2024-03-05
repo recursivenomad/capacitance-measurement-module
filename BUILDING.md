@@ -492,6 +492,11 @@ In the "Extensions" panel, locate the newly installed CMake Tools extension and 
   - Cmake > Options: Status Bar Visibility
     > visible
 
+Additionally, if you'd like to avoid being asked to configure your project every time you open it, assert the following setting (ie. don't leave it as an unmodified default):
+
+  - Cmake: Configure On Open
+    > unchecked
+
 Restart VSCodium.
 
 *This project was built using the files:*  
