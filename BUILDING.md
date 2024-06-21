@@ -133,9 +133,10 @@ In Git Bash enter:
   cd ..
   git clone https://github.com/raspberrypi/pico-examples.git --branch sdk-1.5.1
   git clone https://github.com/raspberrypi/picotool.git --branch 1.1.2
-  git clone https://github.com/raspberrypi/picoprobe.git --branch picoprobe-cmsis-v1.1 --depth 1
+  git clone https://github.com/raspberrypi/picoprobe.git --branch master
   cd picoprobe
-  git submodule update --init
+  git checkout debugprobe-v2.0.1
+  git submodule update --init --depth 1
   ```
 
 *Note that picoprobe's submodules will require your Git is installed with git-lfs (a default setting in Git for Windows).*
@@ -393,7 +394,7 @@ This should reboot the Pico into bootloader mode
   cd C:/VSARM/sdk/pico/picoprobe/
   mkdir build
   cd build
-  cmake ..
+  cmake -DDEBUG_ON_PICO=ON ..
   make
   ```
 
